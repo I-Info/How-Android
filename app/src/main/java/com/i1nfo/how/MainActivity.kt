@@ -20,8 +20,6 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         val navController = navHostFragment.navController
 
-        val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
-
         // bind navigation actions
         val navBar = findViewById<BottomNavigationView>(R.id.navigationBar)
         navBar.setupWithNavController(navController)
