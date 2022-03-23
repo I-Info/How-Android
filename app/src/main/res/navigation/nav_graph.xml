@@ -6,22 +6,22 @@
     app:startDestination="@id/page_main">
     <fragment
         android:id="@+id/page_main"
-        android:name="com.i1nfo.how.MainPage"
+        android:name="com.i1nfo.how.MainPageFragment"
         android:label="fragment_main_page"
         tools:layout="@layout/fragment_main_page" />
     <fragment
         android:id="@+id/page_message"
-        android:name="com.i1nfo.how.MessagePage"
+        android:name="com.i1nfo.how.MessagePageFragment"
         android:label="fragment_message_page"
         tools:layout="@layout/fragment_message_page" />
     <fragment
         android:id="@+id/page_activity"
-        android:name="com.i1nfo.how.ActivityPage"
+        android:name="com.i1nfo.how.ActivityPageFragment"
         android:label="fragment_activity_page"
         tools:layout="@layout/fragment_activity_page" />
     <fragment
         android:id="@+id/page_user"
-        android:name="com.i1nfo.how.UserPage"
+        android:name="com.i1nfo.how.UserPageFragment"
         android:label="fragment_user_page"
         tools:layout="@layout/fragment_user_page" />
 </navigation>
