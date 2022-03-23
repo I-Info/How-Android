@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/page_main">
+    <fragment
+        android:id="@+id/page_main"
+        android:name="com.i1nfo.how.MainPage"
+        android:label="fragment_main_page"
+        tools:layout="@layout/fragment_main_page" />
+    <fragment
+        android:id="@+id/page_message"
+        android:name="com.i1nfo.how.MessagePage"
+        android:label="fragment_message_page"
+        tools:layout="@layout/fragment_message_page" />
+    <fragment
+        android:id="@+id/page_activity"
+        android:name="com.i1nfo.how.ActivityPage"
+        android:label="fragment_activity_page"
+        tools:layout="@layout/fragment_activity_page" />
+    <fragment
+        android:id="@+id/page_user"
+        android:name="com.i1nfo.how.UserPage"
+        android:label="fragment_user_page"
+        tools:layout="@layout/fragment_user_page" />
+</navigation>
