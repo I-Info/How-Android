@@ -2,7 +2,6 @@ package com.i1nfo.how
 
 import android.os.Bundle
 import android.view.*
-import android.widget.SearchView
 import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.Fragment
 import com.google.android.material.appbar.MaterialToolbar
