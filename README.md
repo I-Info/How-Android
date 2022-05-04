@@ -2,4 +2,5 @@
 
 How App for Android
 
-## In developing
+## WIP
+Just a Android 12 app demo.
